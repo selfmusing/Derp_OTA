@@ -1,26 +1,35 @@
 DerpFest 15 STABLE | OFFICIAL
-Build Date : 25-11-2024 
+Build Date : 22-12-2024 
 Device : Redmi Note 7 Pro 
 By ~ @selfmuser
 
 Rom Changes :
-- Initial A15 release
-- Merge November security patch (android-security-15.0.0_r5)
-- Settings: Redesign UI
-- LmoFreeForm: Floating Windows & Sidebar Feature
-- Dynamic GMS Spoofing for Play Integrity Fix
-- Settings: Use the same color we use for background for statusbar 
-- SystemUI: Allow chroma & luminance to affect secondary colors 
-- Status bar lyrics: Fix bug where some lyric would be wrongly ignored
+- Merge December Security Patch QPR0
+- Drop pixel-framework ( messing up with other necessary features )
+- Drop FontGoogleSans ( fix wallpaper & styles crashes )
+- Derplauncher: Add Circle to Search toggle
+- DerpLauncher: Add back smartspace in launcher
+- Added PoweroffAlarm service  
+- Remove Omni weather in favor of updated Smartspace 
+- Fix scrim issues regarding transparency
+- Settings: Use the same color we use for background for statusbar
+- Settings: Move applock to apps section
+- MiFreeform:
+- Fix height/width being too big on landscape mode
+- Allow adding more than one freeform windows
+- Rework freeform window design to match desktop mode specs
+- Implement material you color scheme
+- Implement veil resize effect
+- DerpLauncher: Exclude overview lens activity from recents
 
 For detailed rom changelogs go to: Settings>About>Android Version>Changelog
 
 Device Changes :
-- Upstream Perf Kernel to v4.14.355-openela
+- Merged Uek/u5 into 4.14.355-openela (EOL) kernel.
 - Implemented Xiaomi Dolby Atmos into settings 
 - Update BCR v1.74
 - Improved Meme Cam related stuff ( Causing MIUI detection on some apps )
-- Fixed offline charging animation
+- Switch to QTI AIDL Health service ( Fix Offline charger animation )
 - Fixed USB configuration settings & DeviceAsWebCam service 
 - Switch to AIDL USB hals
 - Updated HALs & some other stuff related to Xiaomi Dolby
