@@ -1,39 +1,50 @@
-DerpFest 15 STABLE | OFFICIAL
-Build Date : 22-12-2024 
+DerpFest 15.1 STABLE | OFFICIAL
+Build Date : 12-01-2025 
 Device : Redmi Note 7 Pro 
 By ~ @selfmuser
 
 Rom Changes :
-- Merge December Security Patch QPR0
-- Drop pixel-framework ( messing up with other necessary features )
-- Drop FontGoogleSans ( fix wallpaper & styles crashes )
-- Derplauncher: Add Circle to Search toggle
-- DerpLauncher: Add back smartspace in launcher
+- Merge January Security Patch QPR1 (android-15.0.0_r10)
+- Drop pixel-framework for good
+- Added Pavlova UI theme for QS tiles
+- Add support for window ignore secure
+- Add support for application downgrade 
+- Add Private DNS QS Tile
+- Add toggle to Disable DNS over VPN
+- Add Volume Slider & Sound QS Tile
+- Add Custom corner swipe gesture settings 
+- Add back Fullscreen Apps settings 
+- Add back QS Header Image settings ( OmniStyle )
+- Ad lock/unlock app option in DerpLauncher recents
+- Known issue : At a Glance widget won't appear on home screen unless you set the DPI to 420 
+- Fix crashes on launcher while navigating to home screen from launcher settings
+- Improved Searchbar Padding for DerpLauncher
+- Haptics on Double Tap to Sleep
+- Shift Circle to Search toggle at Gesture Navigation settings
+- No need to enable Developer options anymore to access USB Configuration settings
+- Fixed Hide Private Space setting
+- Fix Auto-confirm lock screen password 
+- Make Google battery widget work again
 - Added PoweroffAlarm service  
-- Remove Omni weather in favor of updated Smartspace 
-- Fix scrim issues regarding transparency
-- Settings: Use the same color we use for background for statusbar
 - Settings: Move applock to apps section
-- MiFreeform:
-- Fix height/width being too big on landscape mode
-- Allow adding more than one freeform windows
-- Rework freeform window design to match desktop mode specs
-- Implement material you color scheme
-- Implement veil resize effect
-- DerpLauncher: Exclude overview lens activity from recents
 
 For detailed rom changelogs go to: Settings>About>Android Version>Changelog
 
+
 Device Changes :
 - Merged Uek/u5 into 4.14.355-openela (EOL) kernel.
+- Kernel: nl80211: add WPA3 definition for SAE authentication
+- Kernel: block: Add Anxiety I/O scheduler
 - Implemented Xiaomi Dolby Atmos into settings 
-- Update BCR v1.74
-- Improved Meme Cam related stuff ( Causing MIUI detection on some apps )
+- Update BCR v1.76
+- Update display packages
+- libperfmgr-ext: Bump to android.hardware.power-V5-ndk
 - Switch to QTI AIDL Health service ( Fix Offline charger animation )
 - Fixed USB configuration settings & DeviceAsWebCam service 
 - Switch to AIDL USB hals
 - Updated HALs & some other stuff related to Xiaomi Dolby
-- Memecam : Updated blobs for eis and some other fixes ( thanks to joker sir )
+- Fixed glitches while recording videos at 1080p+30fps
+- Updated blobs for eis and some other fixes ( thanks to joker sir )
 
 NOTE : Make sure to join DerpFest Violet chat instead of spamming your skill issues at violet global chat :)
 
