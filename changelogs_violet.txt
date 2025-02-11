@@ -1,21 +1,71 @@
 DerpFest 15.1 STABLE | OFFICIAL
-Build Date : 12-01-2025 
+Build Date : 11-02-2025 
 Device : Redmi Note 7 Pro 
 By ~ @selfmuser
 
 Rom Changes :
-- Merge January Security Patch QPR1 (android-15.0.0_r10)
+- Merge February Security Patch QPR1 (android-15.0.0_r14)
+- Implement Android 16 seekbars (https://m3.material.io/components/sliders/overview)
+- Fix headline font being stuck to roboto in Security & Privacy settings
+- LongSwipe: Add show volume panel action
+- QSHeader: Fix memory leaks
+- QuickTap: Many code improvements
+- DerpLauncher: Improve restart logic
+- device_config: Add values required for Speech Recognition
+- textclassifier: Set manifests + needed options
+- Add haptic feedback to auto brightness icon
+- Add click actions to QS header elements
+- Bring back animated volume icon in volume panel when playing media
+- Prevent OOB when reinflating QS panel with notifications
+- Code improvements for FlashlightStrengthTile
+- Code improvements for VolumeControlTile
+- Optimize connected battery level scanning
+- Fix custom image provider for header image
+- Settings: Bring back Custom Statusbar Signal & Wi-Fi icons
+- GameSpace: Add game optimization settings
+- GameSpace: Enhance in-game call handling
+- GameSpace: Improve seekbars
+- QuickTap: Improve haptic intensity preference behavior
 - Drop pixel-framework for good
-- Added Pavlova UI theme for QS tiles
-- Add support for window ignore secure
-- Add support for application downgrade 
-- Add Private DNS QS Tile
-- Add toggle to Disable DNS over VPN
-- Add Volume Slider & Sound QS Tile
-- Add Custom corner swipe gesture settings 
-- Add back Fullscreen Apps settings 
-- Add back QS Header Image settings ( OmniStyle )
-- Ad lock/unlock app option in DerpLauncher recents
+- Make DerpFest boot logo mask colorful 
+- Make Circle to Search independent of Launcher
+- Add QS Header Image customization
+- Add Compass, DNS, Locale, Sound and Volume QS tiles
+- Allow long pressing screen record timer chips to directly stop the action
+- Migrate screen record options to Material3
+- Update PUI icon pack to affect more elements 
+- Add toggle for window secure flag
+- Add toggle for application downgrade restriction
+- Add Corner swipe action settings
+- Screenrecord: Remove blinking stop dot because there's a chip now
+- Tune new biometric dialog UI again 
+- Prevent indicator text cutting off in biometric prompt
+- Avoid a NPE in QSAnimator
+- Fix constraints for keyguard slice view
+- Constrain keyguard indication area burn-in offset
+- accessibility: Use default shortcuts service if the setting is empty
+- Settings: Improve udfps enroll introduction layout
+- Settings: Use internal display brightness in overlay displays
+- Settings: Fixup fingerprint enroll finish layout
+- Settings: Retain udfps overlay shown state on restoring activity
+- Applock: Do not show unlock prompt when keyguard is locked
+- DerpLauncher: Restore 4x4 workspace
+- DerpLauncher: Update grid sizes from Pixel launcher
+- DerpLauncher: Ditch workspace top/bottom padding for 6*5 grid
+- DerpLauncher: Improve QSB layout
+- DerpLauncher: Use some all apps dimens from Pixel launcher
+- DerpLauncher: Fix search bar top margin on tablets
+- DerpLauncher: Remove all_apps_search_bar_content_overlap on tablets
+- DerpLauncher: Improve persistent taskbar corner radius
+- DerpLauncher: Fix black theme for all apps
+- DerpLauncher: Make themed app icon distinguishable from folder background in black theme
+- DerpLauncher: Fix all apps icon size for tablets
+- DerpLauncher: Fix NPE in createSmartspaceSession being null
+- DerpLauncher: Fixup lens intent in QSB
+- DerpLauncher: Restart launcher on overlay changes
+- DerpLauncher: Dismiss the task menu when launching app info
+- DerpLauncher: Allow private space shortcut to be pinned on homescreen
+- DerpLauncher: Fix crashes when navigating from launcher settings to home screen 
 - Known issue : At a Glance widget won't appear on home screen unless you set the DPI to 420 
 - Fix crashes on launcher while navigating to home screen from launcher settings
 - Improved Searchbar Padding for DerpLauncher
@@ -32,22 +82,23 @@ For detailed rom changelogs go to: Settings>About>Android Version>Changelog
 
 
 Device Changes :
-- Merged Uek/u5 into 4.14.355-openela (EOL) kernel.
+- Merged Uek/u5 into 4.14.355-openela ( EOL) kernel.
 - Kernel: nl80211: add WPA3 definition for SAE authentication
-- Kernel: block: Add Anxiety I/O scheduler
-- Implemented Xiaomi Dolby Atmos into settings 
+- Kernel: block: Add Anxiety I/O scheduler 
 - Update BCR v1.76
+- Revert all gpu adreno blobs to stock ( Fix glitches in some games & also fix an issue with meme cam )
+- Remove media_codecs_google_c2*
+- Remove OMX audio codecs
+- Switch to common lights HAL from lineage
+- Adjust lineage health node ( fixes charging control )
+- Fixup! violet: Switch to AIDL USB HAL
 - Update display packages
 - libperfmgr-ext: Bump to android.hardware.power-V5-ndk
 - Switch to QTI AIDL Health service ( Fix Offline charger animation )
-- Fixed USB configuration settings & DeviceAsWebCam service 
-- Switch to AIDL USB hals
-- Updated HALs & some other stuff related to Xiaomi Dolby
-- Fixed glitches while recording videos at 1080p+30fps
-- Updated blobs for eis and some other fixes ( thanks to joker sir )
+- DeviceasWebcamservice dead on 15 QPR1
 
 NOTE : Make sure to join DerpFest Violet chat instead of spamming your skill issues at violet global chat :)
 
 # Thank you so much to everyone who always supported me and my work 🫶
 
-• Special thanks to @Rkriyon1 for the server 😎
+• Special thanks to @Joker-V2  😎🔥
