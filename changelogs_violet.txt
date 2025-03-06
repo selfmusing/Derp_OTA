@@ -1,10 +1,22 @@
 DerpFest 15.1 STABLE | OFFICIAL
-Build Date : 11-02-2025 
+Build Date : 06-03-2025 
 Device : Redmi Note 7 Pro 
 By ~ @selfmuser
 
-Rom Changes :
-- Merge February Security Patch QPR1 (android-15.0.0_r14)
+Rom Changes : 
+[ 06-03-2025 ]
+- Merge March Security Patch A15QPR1 (android-15.0.0_r6)
+- Add OnGoingActionProgressController for notifications
+-  Hide ongoing action progress chip on lockscreen
+- Add support for kotlin plugins
+- Add JetBrains Mono font overlay
+- Add sdk_version to the kotlinx_coroutines_guava target
+- SystemUI: Add QS gradient toggle at wallpaper & styles app
+- Implement burn-in protection for status/navbar 
+- ChargingControl: Prevent crash against very frequent power toggle
+- ColumbusService: Kotlin code style and minor improvements
+ 
+[ 11-02-2025 ]
 - Implement Android 16 seekbars (https://m3.material.io/components/sliders/overview)
 - Fix headline font being stuck to roboto in Security & Privacy settings
 - LongSwipe: Add show volume panel action
@@ -82,11 +94,18 @@ For detailed rom changelogs go to: Settings>About>Android Version>Changelog
 
 
 Device Changes :
-- Merged Uek/u5 into 4.14.355-openela ( EOL) kernel.
-- Kernel: nl80211: add WPA3 definition for SAE authentication
-- Kernel: block: Add Anxiety I/O scheduler 
-- Update BCR v1.76
+- Upstream kernel with 4.14.356-openela(rc) changes 
+- Merged Uek/u5 into 4.14.356-openela ( EOL) kernel.
+- Update BCR v1.77
+- Fixed DeviceAsWebcam service
+- Fixed inverted colors on DeviceAsWebcam ( red<->blue)
 - Revert all gpu adreno blobs to stock ( Fix glitches in some games & also fix an issue with meme cam )
+- Adapt to C2 Codecs
+- violet: Switch to new AIDL IR service
+- Improved fingerprint speed & dropped some unused blobs
+- keylayout: Remap FP keycode to WAKEUP
+- Set persist.vendor.fingerprint.type=rear
+- Disable UFFD GC via OVERRIDE_ENABLE_UFFD_GC (reduce boot-time on clean flash )
 - Remove media_codecs_google_c2*
 - Remove OMX audio codecs
 - Switch to common lights HAL from lineage
@@ -95,7 +114,6 @@ Device Changes :
 - Update display packages
 - libperfmgr-ext: Bump to android.hardware.power-V5-ndk
 - Switch to QTI AIDL Health service ( Fix Offline charger animation )
-- DeviceasWebcamservice dead on 15 QPR1
 
 NOTE : Make sure to join DerpFest Violet chat instead of spamming your skill issues at violet global chat :)
 
