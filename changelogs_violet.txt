@@ -1,50 +1,35 @@
-DerpFest 15.2 STABLE | OFFICIAL
-Build Date : 12-05-2025 
-Device : Redmi Note 7 Pro 
+DerpFest 16.0 STABLE | OFFICIAL
+Build Date : 12-08-2025 
+Device : Redmi Note 7 Pro [ violet ]
 By ~ @selfmuser
 
 Rom Changes : 
-[ 12-05-2025 ]
-- Merge May Security Patch (android-15.0.0_r32)
-- BIG Rebase over Lineage-OS and merge QPR2
-- Include DerpFest Customisations ( DerpSpace 2.0 )
-- Show random messages & now playing in at a glance
-- Bring back Gphotos Unlimited Spoof Toggle
-- Add iOS 15-16 Battery status styles icons
-- Bring back OmniJaws ( Qs Header ) on QPR2
-- Add Island Notifications support 
-- Allow disabling privacy indicators 
-- Add Charging sounds settings 
-- Fix Keyboard IME space & Navigation Hint toggles 
-- Ongoing Action chip on status bar ( Now also show media progress )
+[ 11-08-2025 ]
+- Merge July Security Patch
+- Initial Android 16 build
+- New Material Expressive UI
+- Local implementation to import keybox.xml and pif.json
+- Island notifications
+- QS header customizations
+- Launcher icon packs
+- Volume dialogue timeout slider
+- Pulse for navbar/ambient
+- Screen off animations
+- Cloned apps
+- Fix root detection on VN apps like VNeID , TechComBank , etc.
 - A lot of other changes as well , can't list everything.. ( Flash ROM & Find Out !! ) 
 
 Device Changes :
-- Upstream kernel with 4.14.356-openela(rc) changes 
+- Upstream kernel with 4.14.356+8-perf brickports
+- Merge BPF commits for A16
+- Fixed bootloop due to MTP
 - Enabled UFFD GC (https://www.kernel.org/doc/html/next/admin-guide/mm/userfaultfd.html)
-- Update BCR v1.77
-- Fixed DeviceAsWebcam service on QPR2
-- Fixed inverted colors on DeviceAsWebcam ( red<->blue)
-- Revert all gpu adreno blobs to stock ( Fix glitches in some games & also fix an issue with meme cam )
-- Fix poweroffalarm on QPR2
-- Removed C2 Media Codecs
-- Restored OMX ( Fix instagram story/reel upload bug )
-- Updated tetheroffload to version 1.1
-- Bumped manifest target-level to 6
-- Imported some missing blobs
-- libperfmgr-ext: Abstract android.hardware.power-ndk dependency
-- violet: switch to open source sound trigger hal
-- violet: Build QTI Thermal AIDL HAL
-- violet: Switch to new AIDL IR service
-- sepolicy: Label more graphic nodes
-- Improved fingerprint speed & dropped some unused blobs
-- keylayout: Remap FP keycode to WAKEUP
-- Set persist.vendor.fingerprint.type=rear
-- Switch to common lights HAL from lineage
-- Adjust lineage health node ( fixes charging control )
-- Fixup! violet: Switch to AIDL USB HAL
-- Update display packages
-- Switch to QTI AIDL Health service ( Fix Offline charger animation )
+- Update BCR v1.79
+- Override kernel BPF version
+- Enable blurs ( You can disable it from display settings )
+- Remove deprecated config_mobile_tcp_buffers/networkAttributes
+- Avoid access of deprecated LocUnorderedSetMap entry
+
 
 NOTE : Make sure to join DerpFest Violet chat instead of spamming your skill issues at violet global chat :)
 
