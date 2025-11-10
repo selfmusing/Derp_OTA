@@ -1,12 +1,34 @@
 DerpFest 16.0 STABLE | OFFICIAL
-Build Date : 12-10-2025 
+Build Date : 10-11-2025 
 Device : Redmi Note 7 Pro [ violet ]
 By ~ @selfmuser
 
 Rom Changes : 
-[ 12-10-2025 ]
-- Merge October Security Patch
-- Fingerprint: Update to the latest A16 beta BP41.250822.010
+[ 10-11-2025 ]
+- Merge November Security Patch
+- Fingerprint: Update to the latest A16 beta BP41.250916.010
+- DerpLauncher: update icons on dynamic color changes
+- DerpLauncher: Add wallpaper pop-up carousel
+- DerpLauncher: Introduce tiny taskbar feature for phones
+- Add Gradicon, Lorn and Plumpy icon support
+- DerpFestCustomizations: Update Pulse settings to include navigation bar visualizer
+- DerpFestCustomizations: Add About section with team and project information
+- DerpFestCustomizations: Add a name fitting easter egg ;)
+- DerpFestCustomizations: Add neon glow pulse style
+- DerpFestCustomizations: Add 4-side rounded style option for edge light
+- DerpFestCustomizations: Edge light animation style
+- DerpFestCustomizations: Add rainbow color mode for ambient edge light
+- DerpFestCustomizations: Add waveform render mode and settings to pulse settings
+- DerpFestCustomizations: Add particle system settings to pulse settings
+- DerpFestCustomizations: Add gradient color option to pulse settings
+- DerpFestCustomizations: Add new tile and brightness slider shape options
+- DerpFestCustomizations: Show Chinese lunar calendar in QS 
+- DerpFestCustomizations: Remove unused brightness slider shape options
+- DerpFestCustomizations: Add gradient tile background option to Quick Settings
+- SystemUI: Add navbar button inversion feature
+- SystemUI: Add accent color tinting support to combined counter
+- SystemUI: Add combined notification count feature
+- KeyboxImitationHooks: A lot of things improved, now it verifies correct boot hash value from system properties
 - Add spoofing section on DerpCustomisations
 - DerpCustomisations; Unlimited Photos Storage toggle, Keybox Attestation override toggle
 - Add transparency level adjustment settings for notifications and headups
@@ -71,6 +93,9 @@ Rom Changes :
 Device Changes :
 - Upstream kernel with 4.14.356+8-perf brickports
 - Merge BPF commits for A16
+- Update BCR v1.85
+- Revert "violet: keylayout: Remap FP keycode to WAKEUP" ( Fixes Fingerprint shutter )
+- Update Dolby Atmos ( better one )
 - Finally STABLE MEMECAM ( Thanks to Joker sir <3 :)
 - Bump kernel BPF version override to 5.4.299
 - Enable ambient AOD
@@ -87,7 +112,6 @@ Device Changes :
 - Fix issues with IR sensor
 - Fixed bootloop due to MTP
 - Enabled UFFD GC (https://www.kernel.org/doc/html/next/admin-guide/mm/userfaultfd.html)
-- Update BCR v1.79
 - Enable blurs ( You can disable it from display settings )
 - Remove deprecated config_mobile_tcp_buffers/networkAttributes
 - Avoid access of deprecated LocUnorderedSetMap entry
