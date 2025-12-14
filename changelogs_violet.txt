@@ -1,12 +1,22 @@
 DerpFest 16.0 STABLE | OFFICIAL
-Build Date : 10-11-2025 
+Build Date : 14-12-2025 
 Device : Redmi Note 7 Pro [ violet ]
 By ~ @selfmuser
 
 Rom Changes : 
-[ 10-11-2025 ]
-- Merge November Security Patch
-- Fingerprint: Update to the latest A16 beta BP41.250916.010
+[ 14-12-2025 ]
+- Merge December 2025 security patches (android-security-16.0.0_r3)
+- Add combined notification count feature
+- Show Chinese lunar calendar in QS
+- Add gradient qs tiles switch
+- Add gradient brightness slider switch
+- PropImitationHooks: Allow per App Pixel-spoofing
+- StatusbarTuner: Convert for Material3 Expressive support
+- DerpFestCustomizations: Statusbar/Buttons: Convert for Material3 Expressive support
+- Fix navbar button inversion feature
+- OnGoingActionProgressController: Fix stuck progress bar after upload/download completion
+- DerpLauncher: Add wallpaper pop-up carousel
+- DerpLauncher: RecentsView: Abort scroller when cancelling pending animation
 - DerpLauncher: update icons on dynamic color changes
 - DerpLauncher: Add wallpaper pop-up carousel
 - DerpLauncher: Introduce tiny taskbar feature for phones
@@ -91,9 +101,13 @@ Rom Changes :
 - A lot of other changes as well , can't list everything.. ( Flash ROM & Find Out !! ) 
 
 Device Changes :
-- Upstream kernel with 4.14.356+8-perf brickports
-- Merge BPF commits for A16
-- Update BCR v1.85
+- Shift to Xcalibur kernel ( Thanks to @Joker-V2 )
+- Enable USB and skin temperature warnings
+- Update BCR v1.87
+- Drop debug.sf.disable_client_composition_cache
+- Remove obsolete debug.sf.disable_backpressure
+- Enable smooth motion property 
+- Apply dex2oat optimizations
 - Revert "violet: keylayout: Remap FP keycode to WAKEUP" ( Fixes Fingerprint shutter )
 - Update Dolby Atmos ( better one )
 - Finally STABLE MEMECAM ( Thanks to Joker sir <3 :)
