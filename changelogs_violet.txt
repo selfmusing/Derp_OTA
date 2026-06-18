@@ -1,14 +1,23 @@
-DerpFest 16.2 BETA | OFFICIAL
-Build Date : 16-03-2026
+DerpFest 16.2 STABLE | OFFICIAL
+Build Date : 18-06-2026
 Device : Redmi Note 7 Pro [ violet ]
 By ~ @selfmuser
 
----CLEAN FLASH RECOMMENDED, IF USING DECEMBER OR JANUARY BUILDS---
-
 Rom Changes : 
-[ 16-03-2026 ]
+[ 18-06-2026 ]
 - Welcome to A16 QPR2 😈🔥
-- Merge March 2026 security patches (android-security-16.0.0_r4)
+- Merge June 2026 security patches
+- New App drawer styles
+- Background color and opacity settings for app drawer
+- Recents Layout Style on launcher: Scale, Kami, iOS, OxygenOS
+- Bold Clock in statusbar
+- New Battery Icon Themes
+- Network Icon Themes
+- QS Tile toggle animation
+- Media volume slider
+- New Dynamic Bar support 
+- Bubble Notifications
+- New charging animation and Lock Screen Clock styles
 - App locker is back
 - Added New sysui icon packs
 - Gradient settings for qs panel and status bar
@@ -74,6 +83,12 @@ Rom Changes :
 
 Device Changes :
 - Shift to Xcalibur kernel ( Thanks to @Joker-V2 )
+- Update media blobs from sweet_k6a
+- Update Graphics blobs
+- Switch C2 Media codecs
+- Configure additional camera framerates
+- overlay: Enable LTE+ icon
+- CarrierConfig: Set LTE+ threshold bandwidth to 0
 - Update to Lunaris-Dolby UI
 - Dropped Memecam, Usinv Aperture from now on
 - Dropped BCR for security reasons
@@ -111,5 +126,5 @@ NOTE : Make sure to join DerpFest Violet chat instead of spamming your skill iss
 
 # Thank you so much to everyone who always supported me and my work 🫶
 
-• Thank you very much @adi8900 for making this update possible 🫡❤️‍🔥
+• Big thanks to @adi8900 for making this update possible 🫡❤️‍🔥
 • Special thanks to @Joker-V2 for everything 😎🔥
